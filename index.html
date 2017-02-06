@@ -1,0 +1,93 @@
+<html> 
+    <head>
+        <link type="text/css" rel="stylesheet" href="main.css" />
+        <title>Your Face </title> 
+        <script type="text/javascript">
+         function banner(){
+          var text = confirm("Are You Sure You Want to Go to Hagwarts?")
+          return text;
+         }
+
+        function answer(){
+          var radio = document.getElementsByName("trivia");
+          var selection = false:
+          var message = "";
+
+          for( var i = 0; i < radio.length; i++) { 
+           if(radio[i].value == "Chevrelet" && radio[i].checked == true) { 
+            selection = true; 
+          } //end if statement 
+         } //end for loop
+
+         if(selection == true) {
+            message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+        } else { 
+          message = message + "<b><p style='color:red'>Try again my friend.</p></b>"; 
+        }
+        document.getElementById("response").innerHTML = message;
+
+      } 
+
+        </script>
+        <style type="text/css">
+         </style>
+      </head> 
+      </a>
+      <body id="background"> 
+        <p> Coming Soon!</p>
+<a href="http://google.com" onclick="return banner()"><header>google</header></a>
+          <nav>
+            <ul class="navmenu">
+              <li class="navitem"><a href="index.html">Home</a></li>
+              <li class="navitem"><a href="companymissionstatement.html"> Company Mission Statement</a></li>
+              <li class="nacitem"><a href="specialoffers.html"> Special Coupons</a></li>
+            </ul>
+          </nav>
+          <h1> Welcome to Your Face</h1>
+
+
+          <div id="rightside">
+            <h2> Transmission Trivia Question </h2>
+    <p> Who made the first Allison </p>
+      <div class="wrap-trivia">
+        <form>
+          <div id="response"></div>
+      <input type="radio" name="trivia" value="stl">Chevrelet<br> 
+      <input type="radio" name="trivia" value="kcr">Ford<br>
+      <input type="radio" name="trivia" value="sfg">Toyota<br>
+      <input type="radio" name="trivia" value="nyy">Audi<br> 
+      <input type="button" value="Click Here" onclick="answere(Chevrelet)"id="botton">
+        </form>
+        </div>
+          <p class="p1"> At <b>Your Face</b> we are dedicated to bring you the <u><i>best of services</i></u> with our complimentery sevice. </p>
+          <p> We Do </p>
+          <ol>
+          <div class="wrap-list">
+           <li class="listitem"> Fix the Drive Train </li>
+           <li class="listitem">Repair Cooler Lines </LI>
+           <li class="listitem"> And eat your lunch </li>
+          </div>
+          </ol>
+
+          <div id="leftside"
+          <video width="800" height="300" controls autoplay>
+            <source src="https://m.youtube.com/watch/v=ty652YzGryU4"
+          type="video/mp4"
+             <source src="https://m.youtube.com/watch?v=NwTsZHGQ6FE"
+             type="cideo/ogg">
+          </video>
+
+    <audio width="400" height="200" controls autoplay>
+      <source src="http://www.w3schools.com/tags/horse.mp3"
+      type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div id="clearfloat"></div>
+  <img src= "http://www.atggoleta.com/wp-content/uploads/2014/10/Transmission.jpg" />
+  <img src= "http://vernstransmissions.com/files/transmission.jpg" />
+  <hr>
+<center> Wes Johnson <a href="https://www.amazon.com/"> Amazon.com </a> </center>
+  <footer>Created by the Your Face Company.... always striving to eat your lunch</footer>
+</body> 
+</html>

@@ -1,0 +1,138 @@
+p{
+    color:gold;
+    font-size:18x;
+}
+
+h1{
+ 	color:gold;
+ }
+
+video{
+	position:relative;
+	margin-right:100px;
+}
+
+ .listitem {
+ 	 color:gold;
+ 	 font-size:20px;
+ }
+
+ .p1 {
+ 	color:gold;
+ 	font-size:2.5em;
+ }
+
+ #background{
+ 	background-color:black;
+ 	color:gold;
+ }
+
+ #button {
+ 	width:20%;
+ 	height:20%;
+ 	background-color:gold;
+ 	color:gold;
+ 	border-radius:15px;
+ }
+
+ #header {
+ 	height:15px;
+ 	width:99%;
+ 	border:2px silver;
+ 	background-color:gold;
+ }
+
+ #footer{
+ 	height:286px;
+ 	width:50%;
+ 	border:2px silver;
+ 	background-color:#aef880;
+ }
+
+ #.wrap-trivia{
+ 	height:500px;
+ 	width:460px;
+ 	border:5px double:white;
+ 	background-color:lightblue;
+ 	padding-left:25px;
+ 	margin-left: 25px;
+ }
+ 	
+
+#.wrap-list{
+ 	height:700px;
+ 	width:90px;
+ 	border:40px gold;
+ }
+
+#rightside{
+	float:right;
+	width:50%;
+}
+
+#leftside{
+	width:50%;
+}
+
+
+#clearfloat{
+	clear:both;
+}
+
+ /* Positions.html CSS*/
+ #one{
+ 	height :150px;
+ 	width: 150px;
+ 	background-color: red;
+ 	display: inline-block;
+ 	position: absolute;
+ 	position: fixed;
+ 	left: 25%;
+ }
+
+ #two{
+ 	height :150px;
+ 	width: 150px;
+ 	background-color: blue;
+ 	display:none;
+ 	position: absolute;
+ 	z-index: 1;
+ }
+
+ #Three{
+ 	height :150px;
+ 	width: 150px;
+ 	background-color: yellow;
+ 	display: inline-block;
+ 	position: absolute;
+ 	z-index:2;
+ }
+
+ .navitem{
+ 	list-style-type:none;
+ 	display:inline;
+ 	padding-right:1.5em;
+ 	color:#aef666;
+ }
+
+ #navmenu{
+ 	width:250px;
+ 	height:30px;
+ 	margin:auto;
+ }
+
+a:link{
+	color:red;
+}
+
+a:visited{
+	color:blue;
+}
+
+a:hover{
+	color:purple
+}
+
+a:active{
+	color:orange;
+}
